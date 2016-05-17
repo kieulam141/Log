@@ -83,7 +83,7 @@ auditctl -w path_to_file -p permissions -k key_name
 		<li>w: sự kiện viết các truy cập tới file hoặc folder.</li>
 		<li>x: sự kiện thực thi các truy cập tới file hoặc folder.</li>
 		<li>a: thay đổi các đặc tính của file hoặc folder.</li>
-	<ul>
+	</ul>
 	<li>key_name: là 1 xâu để định danh rule đấy.</li>
 </ul>
 - VD: định nghĩa 1 rule log lại tất cả sự kiện viết các truy cập và các thay đổi đặc tính của file /etc/passwd và tất cả file trong folder /etc/selinux
