@@ -1,20 +1,20 @@
 # How To Install Graylog 1.x on CentOS 7
 ## Mục lục
-[1. Giới thiệu] #1
+[1. Giới thiệu] (#1)
 
-[2.Cài đặt MongoDB] #2
+[2.Cài đặt MongoDB] (#2)
 
-[3.Cài đặt Java] #3
+[3.Cài đặt Java] (#3)
 
-[4.Cài đặt Elasticsearch] #4
+[4.Cài đặt Elasticsearch] (#4)
 
-[5.Cài đặt Graylog-Server] #5
+[5.Cài đặt Graylog-Server] (#5)
 
-[6.Cài đặt Graylog-Web] #6
+[6.Cài đặt Graylog-Web] (#6)
 
-[7.Cấu hình Rsyslog gửi syslogs tới Graylog-Server] #7
+[7.Cấu hình Rsyslog gửi syslogs tới Graylog-Server] (#7)
 
-[8.Tham Khảo] #8
+[8.Tham Khảo] (#8)
 
 <a name="1"></a>
 ### 1.Giới thiệu
