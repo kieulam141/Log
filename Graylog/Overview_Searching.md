@@ -1,6 +1,6 @@
 # Searching
-## Search query language
-### Syntax
+## I.Search query language
+### 1.Syntax
 <img src="http://image.prntscr.com/image/7c1b81e00fb44eceafb9f369331f2e15.png" />
 
 - Các cú pháp tìm kiếm rất giống cú pháp Lucene.
@@ -50,26 +50,26 @@ http_response_code:<=400
 http_response_code:(>=400 AND <500)
 ```
 
-## Time frame selector
+## 2.Time frame selector
 - Bộ chọn khung thời giản chỉ ra khoảng thời gian cần tìm kiếm.
 - Nó cung cấp 3 cách chọn và sẽ có tốc độ tìm kiếm # nhau.
 
-### Relative time frame selector
+### 2.1.Relative time frame selector
 <img src="http://image.prntscr.com/image/ba7e6f36001b4005a8ccba7c1ae3b4b9.png" />
 - Bộ chọn này cho phép bạn tìm kiếm messages từ các tùy chọn đã được chọn tùy thuộc vào thời gian bạn chọn trong search button.
 - VD: trong 5 phút, 30 phút, 1 tiếng , 2 tiếng ... gần nhất.
 
-### Absolute time frame selector
+### 2.2.Absolute time frame selector
 <img src="http://image.prntscr.com/image/dfab2ef579964783b32ae64788c77c8e.png" />
 - Khi bạn biết chính xác khoảng thời gian bạn muốn tìm, bạn sẽ dùng bộ chọn này.
 - Đơn giản là bạn chỉ cần nhập ngày và thời gian trong lịch có sẵn trên giao diện.
 
-### Keyword time frame selector
+### 2.3.Keyword time frame selector
 <img src="http://image.prntscr.com/image/270ea3f1344d43b689325831c23b8aa2.png" />
 
 - Bộ chọn này cung cấp cho bạn keyword cho phép bạn tùy chỉnh tìm kiếm theo ý của bạn, và ngôn ngữ được sử dụng cũng là ngôn ngữ tự nhiên.
 
-### Saved searches
+### 3.Saved searches
 - Nếu bạn muốn lưu lại tìm kiếm để sử dụng sau này, thì Graylog cung cấp chức năng lưu tìm kiếm.
 - Khi bạn submit xong tìm kiếm của bạn, lựa chọn các trường mà bạn muốn show từ sidebar search, sau đó save lại.
 <img src="http://image.prntscr.com/image/9abc555119554684995dfcccb16bbb2c.png" />
@@ -83,24 +83,24 @@ http_response_code:(>=400 AND <500)
 - Bạn có thể update tên đã lưu, hoặc xóa kết quả tìm kiếm mình đã lưu
 <img src="http://image.prntscr.com/image/b8a1ce9c11b64b0687760ab47cdff134.png" />
 
-## Analysis
+## II.Analysis
 <img src="http://image.prntscr.com/image/b99b427f862f43828165d7884d95fade.png" />
 - Graylog cung cấp 1 vài tool để phân tích kết quả tìm kiếm của bạn.
 - Có 3 tool chính như sau:
 
-### Field statistics
+### 1.Field statistics
 - Tính toán các số liệu # nhau giữa các trường của bạn giúp bạn có cái nhìn tổng quan và hiểu các dữ liệu có trong chúng.
 - Các thông tin bao gồm: total, Mean, Minimum, maximum, standard deviation (độ lệch tiêu chuẩn), variance (sự # nhau), sum, và cardinality.
 <img src="http://image.prntscr.com/image/cc2fe8b2ae094b8ab21cd9f087d9d428.png" />
 
 - Ngoài ra bạn cũng có thể ẩn, ngừng reload và thêm vào dashboard.
 
-### Quick values
+### 2.Quick values
 - Tool này giúp bạn nhìn ra được sự phân phối các giá trị của các trường.
 - Bên cạnh biểu đồ hình tròn là 1 bảng với những giá trị # nhau, cho phép bạn xem những lần chúng xuất hiện
 <img src="http://image.prntscr.com/image/c39636adb89142abb8386064c2bd01aa.png" />
 
-### Field graphs
+### 3.Field graphs
 - Bạn có thể các đồ thị cho các trường loại số
 <img src="http://image.prntscr.com/image/58a6548ff7774a7a9b30c188d0e57168.png" />
 
@@ -118,7 +118,7 @@ http_response_code:(>=400 AND <500)
 - Và kết quả:
 <img src="http://image.prntscr.com/image/736c04c8f16b48bcb91840a3a4692262.png" />
 
-## Export results as CSV
+## IV.Export results as CSV
 - Thêm 1 tính năng nữa rất hay là Graylog cho phép bạn export kết quả tìm kiếm ra 1 file CSV.
 - Bạn chọn tất cả các trường cần export trong sidebar, sau đó vào phần *More actions* và chọn *Export as CSV*.
 <img src="http://image.prntscr.com/image/514b9243b94d42efa070b29f5c304db1.png" />
@@ -126,5 +126,5 @@ http_response_code:(>=400 AND <500)
 - Bạn có thể mở file đã export bằng excel
 <img src="http://image.prntscr.com/image/28dadaa42179461791a717035af3c4ed.png" />
 
-## Search result highlighting
+## V.Search result highlighting
 
